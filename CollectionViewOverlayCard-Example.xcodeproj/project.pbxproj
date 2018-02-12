@@ -12,6 +12,11 @@
 		171DBDC6203189D10071E9C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 171DBDC4203189D10071E9C1 /* Main.storyboard */; };
 		171DBDC8203189D10071E9C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 171DBDC7203189D10071E9C1 /* Assets.xcassets */; };
 		171DBDCB203189D10071E9C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 171DBDC9203189D10071E9C1 /* LaunchScreen.storyboard */; };
+		171DBDD320318A7A0071E9C1 /* CollectionViewRatioScrolled.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171DBDD220318A7A0071E9C1 /* CollectionViewRatioScrolled.swift */; };
+		171DBDD520318AA30071E9C1 /* CardOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171DBDD420318AA30071E9C1 /* CardOverlayView.swift */; };
+		171DBDD720318AE20071E9C1 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171DBDD620318AE20071E9C1 /* CardView.swift */; };
+		171DBDD920318B4F0071E9C1 /* CenteredCellFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171DBDD820318B4F0071E9C1 /* CenteredCellFlowLayout.swift */; };
+		171DBDDB2031A49F0071E9C1 /* NumberCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171DBDDA2031A49F0071E9C1 /* NumberCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		171DBDC7203189D10071E9C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		171DBDCA203189D10071E9C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		171DBDCC203189D10071E9C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		171DBDD220318A7A0071E9C1 /* CollectionViewRatioScrolled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewRatioScrolled.swift; sourceTree = "<group>"; };
+		171DBDD420318AA30071E9C1 /* CardOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardOverlayView.swift; sourceTree = "<group>"; };
+		171DBDD620318AE20071E9C1 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		171DBDD820318B4F0071E9C1 /* CenteredCellFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenteredCellFlowLayout.swift; sourceTree = "<group>"; };
+		171DBDDA2031A49F0071E9C1 /* NumberCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +70,11 @@
 				171DBDC7203189D10071E9C1 /* Assets.xcassets */,
 				171DBDC9203189D10071E9C1 /* LaunchScreen.storyboard */,
 				171DBDCC203189D10071E9C1 /* Info.plist */,
+				171DBDD220318A7A0071E9C1 /* CollectionViewRatioScrolled.swift */,
+				171DBDD420318AA30071E9C1 /* CardOverlayView.swift */,
+				171DBDD620318AE20071E9C1 /* CardView.swift */,
+				171DBDD820318B4F0071E9C1 /* CenteredCellFlowLayout.swift */,
+				171DBDDA2031A49F0071E9C1 /* NumberCell.swift */,
 			);
 			path = "CollectionViewOverlayCard-Example";
 			sourceTree = "<group>";
@@ -96,7 +111,7 @@
 				TargetAttributes = {
 					171DBDBC203189D10071E9C1 = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -137,7 +152,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				171DBDC3203189D10071E9C1 /* ViewController.swift in Sources */,
+				171DBDD920318B4F0071E9C1 /* CenteredCellFlowLayout.swift in Sources */,
 				171DBDC1203189D10071E9C1 /* AppDelegate.swift in Sources */,
+				171DBDD320318A7A0071E9C1 /* CollectionViewRatioScrolled.swift in Sources */,
+				171DBDD520318AA30071E9C1 /* CardOverlayView.swift in Sources */,
+				171DBDD720318AE20071E9C1 /* CardView.swift in Sources */,
+				171DBDDB2031A49F0071E9C1 /* NumberCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,12 +294,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TB576F3KJ6;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "CollectionViewOverlayCard-Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hansoolabs.CollectionViewOverlayCard-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -289,12 +310,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TB576F3KJ6;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "CollectionViewOverlayCard-Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hansoolabs.CollectionViewOverlayCard-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
