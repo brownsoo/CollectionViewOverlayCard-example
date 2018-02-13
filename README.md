@@ -6,6 +6,10 @@ UICollectionView 위로 놓인 카드형태의 뷰를, 페이지 단위의 스�
 ![preview](overlay-card.gif)
 
 
+Requirements
+---
+* Swift4 / iOS
+
 License
 ---
 Source is available under MIT license. See the LICENSE file for more info.
