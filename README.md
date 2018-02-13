@@ -1,6 +1,6 @@
 # Card Animation example layered over UICollectionView
 
-The card animation example responsively scrolling layered over the UICollectionView.
+UICollectionView 위로 놓인 카드형태의 뷰를, 페이지 단위의 스크롤에 따라 슬라이드 되는 움직임을 만든 예제입니다.
 
 ### Preview
 ![preview](overlay-card.gif)
