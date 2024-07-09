@@ -32,6 +32,7 @@
 		171DBDD620318AE20071E9C1 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		171DBDD820318B4F0071E9C1 /* CenteredCellFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenteredCellFlowLayout.swift; sourceTree = "<group>"; };
 		171DBDDA2031A49F0071E9C1 /* NumberCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberCell.swift; sourceTree = "<group>"; };
+		17B2DD0B2C3CC7FA00662FC4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +49,7 @@
 		171DBDB4203189D10071E9C1 = {
 			isa = PBXGroup;
 			children = (
+				17B2DD0B2C3CC7FA00662FC4 /* README.md */,
 				171DBDBF203189D10071E9C1 /* CollectionViewOverlayCard-Example */,
 				171DBDBE203189D10071E9C1 /* Products */,
 			);
