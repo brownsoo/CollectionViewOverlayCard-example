@@ -16,9 +16,9 @@ class NumberCell: UICollectionViewCell {
         super.init(frame: frame)
         self.contentView.backgroundColor = UIColor.white
         contentView.addSubview(label)
-        translatesAutoresizingMaskIntoConstraints = false
-        label.centerXAnchor.constraint(equalTo: self.contentView.centerXAnchor).isActive = true
-        label.centerYAnchor.constraint(equalTo: self.contentView.centerYAnchor).isActive = true
+        label.translatesAutoresizingMaskIntoConstraints = false
+        label.leadingAnchor.constraint(equalTo: self.contentView.leadingAnchor, constant: 20).isActive = true
+        label.topAnchor.constraint(equalTo: self.contentView.topAnchor, constant: 20).isActive = true
     }
     
     required init?(coder aDecoder: NSCoder) {

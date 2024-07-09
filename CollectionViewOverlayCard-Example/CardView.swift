@@ -21,7 +21,7 @@ class CardView: UIView, RatioScrolled {
     var scrolledRatioY: CGFloat = 0
     var scrolledRatioX: CGFloat = 0 {
         didSet {
-            self.alpha = 1 - min(1, fabs(scrolledRatioX))
+            self.alpha = 1 - min(1, abs(scrolledRatioX))
             self.frame = CGRect(
                 x: basePosition.x + 100 * min(1.3, max(-1.3, scrolledRatioX)),
                 y: basePosition.y,
